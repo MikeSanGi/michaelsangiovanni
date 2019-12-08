@@ -21,6 +21,15 @@ body {
   }
 }
 
+@media (max-width:992px)
+{
+    body{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.6) ),url("https://www.xmple.com/wallpaper/graph-paper-black-green-grid-1920x1080-c2-000000-00ff7f-l2-2-46-a-0-f-20.svg") !important;
+    background-repeat: no-repeat;
+    background-attachment: fixed !important;
+    }
+}
+
 h1,
 h2,
 h3,
@@ -85,7 +94,7 @@ p.lead {
 }
 
 .dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+  color: darkblue;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -177,7 +186,7 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: darkblue;
 }
 
 #window
@@ -202,4 +211,9 @@ a:hover, a:focus, a:active {
     box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
     color: white;
     font-family: arial;
+}
+
+#inset-vid
+{
+        border: 3px inset lightgray;
 }
