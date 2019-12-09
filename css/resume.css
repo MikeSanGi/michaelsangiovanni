@@ -32,9 +32,9 @@ body {
 
 @media (max-width:400px)
 {
-.text-primary {
+#last-name {
   color: darkblue!important;
-    font-size: 32!important;
+    font-size: 68px!important;
 }
 }
 
@@ -224,4 +224,9 @@ a:hover, a:focus, a:active {
 #inset-vid
 {
         border: 3px inset lightgray;
+}
+
+#last-name
+{
+      color: darkblue!important;
 }
