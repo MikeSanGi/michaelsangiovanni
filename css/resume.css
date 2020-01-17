@@ -97,6 +97,22 @@ p.lead {
     color: #fff !important;
 }
 
+.button a {
+  display: inline-block;
+  background-color: lightgray;
+  color: #343a40 !important;
+  text-align: center;
+  padding: 0.75rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+  border: 2px outset white;
+}
+
+.button a:hover {
+  background-color: darkblue;
+    color: #fff !important;
+}
+
 .dev-icons {
   font-size: 3rem;
 }
